@@ -1,24 +1,20 @@
 # Dicoding Collection Dashboard ✨
 
-## Setup Text editor
+Dashboard ini dibuat untuk menampilkan analisis data penyewaan sepeda, termasuk pola penyewaan berdasarkan hari dalam seminggu dan jam dalam sehari. Dibuat menggunakan Streamlit dan berbagai pustaka Python seperti Pandas, Matplotlib, dan Seaborn.
+
+## Setup Environment
 
 ```
-open visual studio code
-view - command palette
-ketik jupiter notbook
-```
-
-## Setup file python dashboard
-
-```
-buat folder kosong dalam folder Bike-Sharing.ipynb
-buat folder python
+C:/Users/User/.vscode/Python
+mkdir Bike-Sharing.ipynb
+cd Bike-Sharing.ipynb
+pipenv install
+pipenv shell
+pip install -r requirements.txt
 ```
 
 ## Run steamlit app
 
 ```
-buka command prompt
-cd .vscode/Python/Bike-Sharing.ipynb/streamlit_py
 streamlit run dashboard.py
 ```
