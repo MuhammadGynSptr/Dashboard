@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-csv_file_hour = pd.read_csv("hour.csv")
-csv_file_day = pd.read_csv("day.csv")
+csv_file_hour = pd.read_csv("./hour.csv")
+csv_file_day = pd.read_csv("./day.csv")
 
 daily_rentals = csv_file_day.groupby('weekday').agg({
     'cnt': 'sum'
